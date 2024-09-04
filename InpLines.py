@@ -1,2 +1,6 @@
-name = input('What is your name?\n')
+name = input('What is your name?')
+age = int(input("How old are you? "))
+message = input("Tell me something, and I will repeat it back to you: ")
 print ('Hi, %s.' % name)
+print("Your age in years is", age)
+print(message)
