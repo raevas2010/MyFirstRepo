@@ -1,0 +1,12 @@
+import treelib
+import matplotlib.pyplot as plt
+
+ 
+tree = treelib.Tree()
+tree.create_node("Root", 1)
+tree.create_node("Child1", 2, parent=1)
+tree.create_node("Child2", 3, parent=1)
+tree.create_node("Grandchild1", 4, parent=2)
+tree.create_node("Grandchild2", 5, parent=2)
+ 
+tree.show()
